@@ -35,20 +35,19 @@ Should we expect larger sets of orders in the future ? I don't think so. The bus
 
 ## 4) We need a new feature
 
-Mr. Robinson likes to have this program available, but he would be really pleased if instead of just predicting the total revenue for the given set of orders, the program could tell us which orders in the set are contributing to the revenue. Mr. Robinson used to give this example where he used a small set -- I believe they are in the file named `SAMPLE.TXT` -- and I took note of it :
+Mr. Robinson likes this program well, but he would really enjoy being able to know not only the total revenue that can be predicted for a set of orders, but also which of them contribute to the revenue.  Mr. Robinson gave me an example where he used a small set of orders -- I believe they are in the file named `SAMPLE.TXT`:
 
 Given the orders:
+
 - `FOO` from 0 to 10 at price 100, 
 - `BAR` from 3 to 12 at price 140,
 - `QUX` from 10 to 15 at price 70,
 - `BAZ` from 11 to 17 at price 80
 
-not only the program should output `180` -- the correct revenue from such a set -- but also the orders to accept, like this:
+not only the program should output `180` -- the correct revenue from such a set -- but also the orders to accept. Something like this:
 
-```
-FOO   : 100
-BAZ   :  80
-total : 180
-```
+- take order `FOO` for 100
+- take order `BAZ` for 80
+- total : 180
  
 
